@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# session-bridge runtime data / outputs (never commit user session data)
+.session-bridge/
+*.sqlite
+*.sqlite-*
+docs/sessions/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

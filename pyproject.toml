@@ -1,0 +1,11 @@
+[tool.ruff]
+line-length = 100
+target-version = "py38"
+
+[tool.ruff.lint]
+# Standard-library only project; keep the rule set pragmatic.
+select = ["E", "F", "W"]
+ignore = ["E203"]
+
+[tool.pycodestyle]
+max-line-length = 100
