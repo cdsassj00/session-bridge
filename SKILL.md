@@ -1,15 +1,6 @@
 ---
 name: session-bridge
-description: >-
-  Search, import, and resume past coding-agent sessions across DIFFERENT agents.
-  Use this when the user wants to (1) find a previous conversation they had in
-  Claude Code, Codex, or Gemini CLI ("find the chat where we discussed X",
-  "what did I do about the auth bug last week"), (2) pull an old session into the
-  current project as a Markdown file ("bring that session here", "save that
-  conversation as a doc"), or (3) continue a conversation that happened in
-  another agent or another session ("resume the Codex session about the parser",
-  "let's continue where we left off in Gemini"). Works read-only across every
-  agent's local session store.
+description: Search, import, and resume past coding-agent sessions across DIFFERENT agents. Use when the user wants to find a previous conversation from Claude Code, Codex, or Gemini CLI ("find the chat where we discussed X", "what did I do about the auth bug"), pull an old session into the current project as a Markdown file ("bring that session here", "save that conversation as a doc"), or continue a conversation that happened in another agent or another session ("resume the Codex session about the parser", "continue where we left off in Gemini"). Works read-only across every agent's local session store.
 ---
 
 # session-bridge
